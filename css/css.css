@@ -1,0 +1,65 @@
+.section-body{
+    max-width: 37rem;
+}
+.formulario_login{
+    max-width: 30.5rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.formulario_login_titulo{
+    font-size: var(--h1);
+    font-family: 'Roboto', sans-serif;
+    color: var(--azul);
+}
+.formulario_login_titulo span{
+    font-size: 3rem;
+}
+.formulario_login label{
+    font-size: var(--parrafo);
+    color: var(--azul);
+    margin-top: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.formulario_login_input{
+    max-width: 30.3rem;
+    height: 3.5rem;
+    padding-left: 0.4rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.5rem;
+    font-size: var(--parrafo-peque);
+    color: var(--grisClaro);
+    outline: none;
+}
+.boton{
+    width: 11.5rem;
+    height: 5rem;
+    font-size: var(--h3);
+    background-color: var(--rosado);
+    color: var(--hueso);
+    border: none;
+    margin-top: 4.2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.caja_opciones{
+    display: flex;
+}
+.caja_opciones label{
+    margin-top: 0.5rem;
+    padding: 0rem 4rem 0rem 0.1rem;
+}
+
+.mensaje{
+    border: 1px solid #E5E5E5;
+    font-size: var(--parrafo-peque);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}

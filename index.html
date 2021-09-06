@@ -1,0 +1,94 @@
+  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sections of styles -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/css.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="background-section">
+        <section class="section-body">
+            <form class="formulario_login" id="boton">
+                <h2 class="formulario_login_titulo">¡Hola! <br><span>Ingresa tus datos</span></h2>
+
+                
+                <label for="Nombre">
+                    Nombre 
+                    <input type="text" name="primerNombre" class="formulario_login_input" id="inputPrimerNombre">
+                </label>
+                    
+                <label for="Sexo">
+                    Sexo
+                    <div class="caja_opciones">
+                        <input type="radio" name="sexo" class="formulario_login_input" id="input_hombre">
+                        <label for="hombre" class="botonSexo">Masculino</label>
+                        
+                        <input type="radio" name="sexo" class="formulario_login_input" id="input_mujer">
+                        <label for="mujer" class="botonSexo">Femenino</label>
+                    </div>
+                </label>
+
+                <label for="peso">
+                    Peso (kg)
+                    <input type="text" name="segundoNombre" class="formulario_login_input" id="inputPeso">
+                </label>
+
+                <label for="altura">
+                    Altura (m)
+                    <input type="text" name="apellidos" class="formulario_login_input" id="inputAltura">
+                </label>
+
+                <label for="edad">
+                    Edad
+                    <input type="number" name="correo" class="formulario_login_input" id="inputEdad">
+                </label>
+
+                <label for="NivelActividad">
+                    Nivel de actividad 
+                    <div class="caja_opciones">
+                        <input type="radio" name="sexo" class="formulario_login_input" id="sedentario">
+                        <label for="hombre" class="actividad">Sedentario</label>
+                        
+                        <input type="radio" name="sexo" class="formulario_login_input" id="moderado">
+                        <label for="mujer" class="actividad">Moderado</label>
+                    </div>
+
+                    <div class="caja_opciones">
+                        <input type="radio" name="sexo" class="formulario_login_input" id="ligero">
+                        <label for="mujer" class="actividad">Ligero</label>
+
+                        <input type="radio" name="sexo" class="formulario_login_input" id="intenso">
+                        <label for="mujer" class="actividad">Intenso</label>
+                    </div>
+                </label>
+
+                <label for="MedidaAbdomen">
+                    Medida Abdominal (cm)
+                    <input type="number" name="confirmarContraseña" class="formulario_login_input" id="inputMedidaAbdominal">
+                </label>
+
+                    <button class="boton">¡Listo!</button>
+                    <div id="cajaMensaje"><p></p></div>
+            </form>
+        </section>
+    </div>
+
+
+    <script src="js/Main.js"></script>
+</body>
+</html>
